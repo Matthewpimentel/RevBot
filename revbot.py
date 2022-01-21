@@ -1,8 +1,8 @@
 import random
 import discord
 
-
-TOKEN = 'OTM0MTM0MTcwODE5NjQ1NDcw.YerqPQ.W4tJS1prkXl79kCM-lUCgP78zJg'
+#Add
+TOKEN = ''
 client = discord.Client()
 
 @client.event
