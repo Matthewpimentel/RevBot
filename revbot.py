@@ -1,9 +1,8 @@
-import random
 import discord
-import music, role
+import music, role, secret
 from discord.ext import commands
-#Add token here
-TOKEN = ''
+
+
 
 client = commands.Bot(command_prefix=".!")
 
@@ -17,4 +16,4 @@ async def on_ready():
         print('We have logged in as {0.user}' .format(client))
 
         
-client.run(TOKEN)
+client.run(secret.TOKEN)
